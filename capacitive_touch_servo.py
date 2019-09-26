@@ -14,7 +14,7 @@ angle = 90
 speed = 0.2
 
 while True:
-    
+
     if touch_A0.value:
         angle += speed
     if touch_A5.value:
@@ -24,4 +24,3 @@ while True:
     if angle < 0:
         angle = 0
     my_servo.angle = angle
-

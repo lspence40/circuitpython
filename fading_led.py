@@ -20,4 +20,3 @@ while True:
         abc = 1
 
     analog_out.value = power
-
