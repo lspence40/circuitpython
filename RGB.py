@@ -1,4 +1,4 @@
-from digitalio import DigitalInOut, Direction, Pull
+from digitalio import DigitalInOut, Direction, Pull #pylint: disable-msg=import-error
 from time import sleep # import other libraries into my library
 
 class rgb():
