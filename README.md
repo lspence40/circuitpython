@@ -16,3 +16,7 @@ fading_led is a single color LED that fades in and out as time progresses.
 photointerrupter_LCD_thing counts the number of times a photointerrupter has been interrupted and displays the number to an LCD every 4 seconds.
 
 rAiNbOwS was created to be used by the RGB library and makes two RGBLEDs do rainbow things.
+
+complicated_wiring is the thing I used to test FancyLED
+
+FancyLED is another library, this time for 3 seperate single color LEDs.
