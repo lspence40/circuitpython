@@ -3,13 +3,13 @@ some small circuitpython programs that I made for school.
 
 README is a text file describing all the stuff I have made so far.
 
-RGB is a library for using RGBLEDs.
+RGB is a library for using RGBLEDs. it lets you set them to any of the 6 main colors, white, and off. the lesson i learned whiel making it was that the pin must be set to high to trun that specific color off. hooray for logic.
 
-button_count_LCD counts up or down when a button is pressed depending on wether a switch has been flipped and prints teh value to an LCD.
+button_count_LCD counts up or down when a button is pressed depending on wether a switch has been flipped and prints the value to an LCD. i don't remember any lessons i learned with this one but there was probably something.
 
-capacitive_touch_servo moves a servo one way when you touch one wire and the other way when you touch the other.
+capacitive_touch_servo moves a servo one way when you touch one wire and the other way when you touch the other. the lesson i learned here was how to use capacitive touch.
 
-color_scale_distance_thing fades the onboard neopixel through the color scale depending on the input from the distance sensor.
+color_scale_distance_thing fades the onboard neopixel through the color scale depending on the input from the distance sensor. the lesson in this one was 
 
 fading_led is a single color LED that fades in and out as time progresses.
 
