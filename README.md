@@ -22,3 +22,5 @@ rAiNbOwS was created to be used by the RGB library and makes two RGBLEDs do rain
 FancyLED is another library, this time for 3 seperate single color LEDs. didn't learn much of anything here either.
 
 complicated_wiring is the thing I used to test FancyLED. i burned out 3 LEDs and a good sized portion of my sanity making this. do not try this at home kids. if you do, color code your wires.
+
+whenever you see '#pylint: disable-msg=import-error' it means that the library before it works only with circuitpython and not regular python.
