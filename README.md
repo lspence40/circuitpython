@@ -3,36 +3,87 @@ some small circuitpython programs that I made for school.
 
 "small"
 
-README is a text file describing all the stuff I have made so far. it taught me how to use nano.
+README is a text file describing all the stuff I have made so far. it taught me how to use nano (a text editor).
 
-RGB is a library for using RGBLEDs. it lets you set them to any of the 6 main colors, white, and off. the lesson i learned whiel making it was that the pin must be set to high to trun that specific color off. hooray for logic.
 
-## Button Count
+## RGB
 
-### Description 
+### description
+a library for using RGBLEDs. it lets you set them to any of the 6 primary/secondary colors, white, and off.
 
-button_count_LCD counts up or down when a button is pressed depending on wether a switch has been flipped and prints the value to an LCD. 
+### lessons learned
+the pin must be set to high to trun that specific color off. hooray for logic.
 
-### Lessons Learned
 
+## button_count_LCD
+
+### description 
+counts up or down when a button is pressed depending on wether a switch has been flipped and prints the value to an LCD. 
+
+### lessons learned
 i don't remember any lessons i learned with this one but there was probably something.
 
-## Capacitive Touch
 
-capacitive_touch_servo moves a servo one way when you touch one wire and the other way when you touch the other. the lesson i learned here was how to use capacitive touch.
+## capacitive_touch_servo
 
-## Color Scale Distance Thing
+### description
+moves a servo one way when you touch one wire and the other way when you touch the other.
 
-color_scale_distance_thing fades the onboard neopixel through the color scale depending on the input from the distance sensor. the lesson in this one was that linear equations are very usefull, even if the thing you are using them for has nothing to do with linear equations.
+### lessons learned
+how to use capacitive touch.
 
-fading_led is a single color LED that fades in and out as time progresses. in this one, i learned that neopixels are a thing that exists.
 
-photointerrupter_LCD_thing counts the number of times a photointerrupter has been interrupted and displays the number to an LCD every 4 seconds. in this one i learned how wire a photointerrupter. it makes less sense than you might think. even though i learned how to do this last year.
+## color_scale_distance_thing
 
-rAiNbOwS was created to be used by the RGB library and makes two RGBLEDs do rainbow things. it is much more camplicated than the assignment required, but it was fun and shiny, so here we are.
+### description
+fades the onboard neopixel through the color scale depending on the input from the distance sensor.
 
-FancyLED is another library, this time for 3 seperate single color LEDs. didn't learn much of anything here either.
+### lessons learned
+linear equations are very usefull, even if the thing you are using them for has nothing to do with linear equations.
 
-complicated_wiring is the thing I used to test FancyLED. i burned out 3 LEDs and a good sized portion of my sanity making this. do not try this at home kids. if you do, color code your wires.
 
-whenever you see '#pylint: disable-msg=import-error' it means that the library before it works only with circuitpython and not regular python.
+## fading_led
+
+### description
+single color LED that fades in and out as time progresses.
+
+### lessons learned
+neopixels are a thing that exists.
+
+
+## photointerrupter_LCD_thing
+
+### description
+counts the number of times a photointerrupter has been interrupted and displays the number to an LCD every 4 seconds.
+
+### lessons learned
+i learned how wire a photointerrupter. it makes less sense than you might think. even though i learned how to do this last year.
+
+
+## rAiNbOwS
+
+### description
+created to be used by the RGB library and makes two RGBLEDs do rainbow things. i made it much more complicated than the assignment required, but it was fun and shiny, so here we are.
+
+### lessons learned
+i have no idea
+
+
+## FancyLED
+
+### description
+another library, this time for 3 seperate single color LEDs.
+
+### lessons learned
+didn't learn much of anything here either.
+
+
+## complicated_wiring
+
+### description
+the thing I used to test FancyLED. i burned out 3 LEDs and most of my sanity making this.
+
+### lessons learned
+do not try this at home kids. if you do, color code your wires.
+
+wherever you see '#pylint: disable-msg=import-error' it means that the library before it works only with circuitpython and not regular python. '#pylint: disable-msg=import-error' makes the compiler stop sending error messages about things that arne a real problem.
