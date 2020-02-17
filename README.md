@@ -86,4 +86,6 @@ the thing I used to test FancyLED. i burned out 3 LEDs and most of my sanity mak
 ### lessons learned
 do not try this at home kids. if you do, color code your wires.
 
+
+
 wherever you see '#pylint: disable-msg=import-error' it means that the library before it works only with circuitpython and not regular python. '#pylint: disable-msg=import-error' makes the compiler stop sending error messages about things that arne a real problem.
